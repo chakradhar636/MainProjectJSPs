@@ -1,0 +1,89 @@
+#templatemo_menu {
+	clear: both;
+	width: 100%;
+	height: 125px;
+	padding: 0 1px;
+	background-size: 100% 100%;
+	background: url(../images/Capture1.PNG) no-repeat;
+        
+}
+
+.indentmenu{
+	font: bold 14px Arial;
+	height: 58px;
+	width: 100%; /*leave this value as is in most cases*/
+}
+
+.indentmenu ul{
+	margin: 0;
+	padding: 0;
+	height: 58px;
+}
+
+.indentmenu ul li{
+display: inline;
+}
+
+.indentmenu ul li a{
+float: left;
+color: white; /*text color*/
+width: 120px;
+text-align: center;
+height: 40px;
+padding-top: 18px;
+text-decoration: none;
+border-right: 2px solid #000;// navy divider between menu items
+outline: none;
+}
+
+.indentmenu ul li a:visited{
+color: white;
+}
+
+.indentmenu ul li a.selected, .indentmenu ul li a:hover{
+color: white !important;
+}
+
+.indentmenu li .last{
+	border-right: none;
+}
+
+.indentmenu1{
+	font: bold 14px Arial;
+	height: 58px;
+	width: 100%; /*leave this value as is in most cases*/
+}
+
+.indentmenu1 ul{
+	margin: 0;
+	padding: 0;
+	height: 58px;
+}
+
+.indentmenu1 ul li{
+	display:inherit;
+}
+
+.indentmenu1 ul li a{
+	float: left;
+	color: white; /*text color*/
+	width: 200px;
+	text-align: center;
+	height: 40px;
+	padding-top: 18px;
+	text-decoration: none;
+	border-right: 2px solid #000;// navy divider between menu items
+outline: none;
+}
+
+.indentmenu1 ul li a:visited{
+	color: white;
+}
+
+.indentmenu1 ul li a.selected, .indentmenu ul li a:hover{
+	color: white !important;
+}
+
+.indentmenu1 li .last{
+	border-right: none;
+}
